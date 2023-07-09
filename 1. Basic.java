@@ -1,6 +1,8 @@
 package com.vikram_package;
-class E3 {
-     void NotStatic_func()
+class E3 
+{
+     
+    void NotStatic_func()
     {System.out.println("in E3 class - Non Static method");
     }
     public static void Static_func()
@@ -13,12 +15,12 @@ class E3 {
         Static_func();// static func can be called directly
         Static_int();
     }
-
     public static int Static_int() //only the code inside main gets executed.
             // since its called inside main, it does give print output
     {System.out.println("in int class- Static Method");//
         return 1232;
     }
+     
 }
 
 
